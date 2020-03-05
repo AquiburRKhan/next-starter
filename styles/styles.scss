@@ -1,5 +1,41 @@
-$font-size: 50px;
-.example {
-  font-size: $font-size;
-  color: red;
+html, body{
+  margin: 0!important;
+  height: 100%;
+}
+
+#__next {
+  height: 100%;
+}
+
+.authBox {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+}
+
+.authForm {
+  background-color: lightgrey;
+  padding: 20px;
+  width: 500px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.authForm h1 {
+  margin: 0;
+}
+
+.authForm input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+
+.authForm button {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-top: 20px;
 }
